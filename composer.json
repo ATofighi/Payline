@@ -1,6 +1,9 @@
 {
   "name": "atofighi/payline",
-  "description": "A simple class for PayLine",
+  "description": "A simple class for PayLine.ir",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "GPL-3.0",
   "require": {
     "php": ">=5.4.0"
   },
