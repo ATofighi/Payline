@@ -1,0 +1,12 @@
+{
+  "name": "atofighi/payline",
+  "description": "A simple class for PayLine",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ATofighi\\": "src/"
+    }
+  }
+}

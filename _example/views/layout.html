@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+	<meta charset="UTF-8">
+	<title>Pay - {{ title }}</title>
+</head>
+<body>
+<span style="font-weight: bold;color:red;">{{ error }}</span>
+<span style="font-weight: bold;color:green;">{{ ok }}</span>
+
+<form method="post" action="{{ url }}">
+	<input type="text" name="amount" value="{{ input_amount }}">
+	<input type="submit" name="submit" value="تایید">
+</form>
+</body>
+</html>
+
